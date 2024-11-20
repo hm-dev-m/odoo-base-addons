@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record model="crm.team" id="team_technique_support">
+            <field name="name">Équipe Support Technique</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+
+        <record model="crm.team" id="team_sales">
+            <field name="name">Équipe ventes</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+
+        <record model="crm.team" id="team_sav">
+            <field name="name">Équipe SAV</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="alias_name">sav-alert</field>
+            <field name="alias_contact">partners</field>
+        </record>
+    </data>
+</odoo>
